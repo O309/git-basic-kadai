@@ -1,4 +1,3 @@
-PS C:\Users\harugak1ta> cd C:\TEST
 PS C:\TEST> mkdir git_challenge
 
 
@@ -7,7 +6,7 @@ PS C:\TEST> mkdir git_challenge
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d-----        2025/03/09     22:32                git_challenge
+d-----        2025/03/09     22:54                git_challenge
 
 
 PS C:\TEST> cd C:\TEST\git_challenge
@@ -15,22 +14,13 @@ PS C:\TEST\git_challenge> git init
 Initialized empty Git repository in C:/TEST/git_challenge/.git/
 PS C:\TEST\git_challenge> git add hello_world.txt
 PS C:\TEST\git_challenge> git commit -m "hello_world.txtの作成"
-[main (root-commit) 6fca400] hello_world.txtの作成
- 1 file changed, 0 insertions(+), 0 deletions(-)  
+[main (root-commit) aaea462] hello_world.txtの作成
+ 1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
-PS C:\TEST\git_challenge> git init
-Reinitialized existing Git repository in C:/TEST/git_challenge/.git/
-PS C:\TEST\git_challenge> git add hello_world.txt
-PS C:\TEST\git_challenge> git commit -m "Hello, world!の追加"
-[main e7aacd3] Hello, world!の追加
- 1 file changed, 1 insertion(+)   
-PS C:\TEST\git_challenge> git init     
-Reinitialized existing Git repository in C:/TEST/git_challenge/.git/
 PS C:\TEST\git_challenge> git add hello_world.txt
 PS C:\TEST\git_challenge> git commit -m "こんにちは、世界！の追加"
-[main 9b24ce1] こんにちは、世界！の追加        
+[main ca3ddcc] こんにちは、世界！の追加        
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\TEST\git_challenge> git log --oneline
-9b24ce1 (HEAD -> main) こんにちは、世界！の追加
-e7aacd3 Hello, world!の追加
-6fca400 hello_world.txtの作成
+ca3ddcc (HEAD -> main) こんにちは、世界！の追加
+aaea462 hello_world.txtの作成
